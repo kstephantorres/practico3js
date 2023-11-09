@@ -18,8 +18,8 @@ document.write(`<table>
 
 for(let i=2;i<=12;i++){
     document.write(`<tr>`)
-    document.write(`<th>${i}</th>`)
-    document.write(`<th>${acumulador[i-2]}</th>`)
+    document.write(`<td>${i}</td>`)
+    document.write(`<td>${acumulador[i-2]}</td>`)
     sumador+=acumulador[i-2]
     document.write(`</tr>`)
 }

@@ -1,0 +1,4 @@
+ table, td, th {
+    border: solid 1px rgb(40, 141, 128);
+    padding: 1px;
+}
