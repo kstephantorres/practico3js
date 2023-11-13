@@ -1,4 +1,4 @@
-const numero = parseInt(prompt('7 - Ingrese un número: '))
+const numeroTabla = parseInt(prompt('7 - Ingrese un número: '))
 
 const crearTabla=(numero)=>{
     document.write(`<table>
@@ -17,6 +17,5 @@ const crearTabla=(numero)=>{
 
 }
 
-console.log(numero)
-!isNaN(numero)? crearTabla(numero) : alert('No ingreso un número.')
+!isNaN(numeroTabla)? crearTabla(numeroTabla) : alert('No ingreso un número.')
 

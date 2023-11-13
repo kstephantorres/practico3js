@@ -1,7 +1,7 @@
 const cadena = prompt('5 - Ingrese un texto: ')
 
 const determinar=(cadena)=>{
-    if (cadena==='')
+    if (cadena==='' || !cadena)
     {
        return 'No ingreso una cadena'  
     }else if(cadena === cadena.toLowerCase()){

@@ -9,4 +9,5 @@ numeroauxiliar? arregloMayor.push(numeroauxiliar) : alert('No ingreso un número
 
 const mayor=(arregloMayor)=> Math.max(...arregloMayor)
 
-document.write(`El número mayor es: ${mayor(arregloMayor)}`)
+if (arregloMayor.length>0) document.write(`El número mayor es: ${mayor(arregloMayor)}`)
+else document.write(`No se encontro numeros en el arreglo.`)
